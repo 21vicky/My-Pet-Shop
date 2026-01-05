@@ -1,0 +1,84 @@
+.care-tips-container {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #fdfbf7;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.care-tips-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.care-tips-header h1 {
+  color: #5d7052;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.care-tips-header p {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.tip-card {
+  background: var(--card-bg);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+  border-left: 5px solid #8b5e3c;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+}
+
+.tip-image {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.tip-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tip-content {
+  padding: 1.5rem;
+}
+
+.tip-content h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.tip-text {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.tip-icon {
+  font-size: 1.2rem;
+}
+
+.tip-text p {
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
