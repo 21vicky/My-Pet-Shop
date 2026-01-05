@@ -34,3 +34,13 @@ https://21vicky.github.io/My-Pet-Shop/
 ```bash
 git clone https://github.com/21vicky/My-Pet-Shop.git
 cd My-Pet-Shop
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run locally
+npm run dev
+
+App will run at:
+
+http://localhost:5173
